@@ -1,0 +1,16 @@
+#navbarHolder {
+  display: flex;
+  border: solid black 1px;
+}
+#linkDiv {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  padding: 20px;
+  display: inline;
+}
