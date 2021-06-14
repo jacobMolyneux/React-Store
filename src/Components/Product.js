@@ -36,7 +36,11 @@ export default class Product extends React.Component {
   render() {
     return (
       <div id="pageContainer">
-        <Navbar quantity={this.state.cartQuantity} />
+        <Navbar
+          quantity={this.state.cartQuantity}
+          product={this.state.name}
+          price={this.state.price}
+        />
         <div id="productHolder">
           <div id="imageHolder">
             <img id="iphoneImage" src={iphone} alt="Iphone image"></img>

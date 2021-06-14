@@ -32,3 +32,6 @@ li {
   display: flex;
   flex-direction: row;
 }
+#cart {
+  position: absolute;
+}
