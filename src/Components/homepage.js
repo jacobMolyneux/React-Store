@@ -1,6 +1,7 @@
 import React from "react";
 import Monstera from "./images/Monstera.jpeg";
 import NavBar from "./NavigationBar";
+import "./stylesheets/homepage.css";
 
 const Homepage = () => {
   return (
@@ -13,16 +14,16 @@ const Homepage = () => {
           <button id="shopMoreBtn">Shop Now</button>
         </div>
         {/* main product to display section */}
-        <div>
-          <img src={Monstera} alt="Monstera"></img>
+        <div id="highlightedProduct">
+          <img id="ProductPhoto" src={Monstera} alt="Monstera"></img>
           <div id="detailsDiv">
             <h1>Monstera</h1>
             <p>This is a product description</p>
             <div>
               <div id="quantitySelectors">
-                <button>+</button>
-                <div>0</div>
-                <button>-</button>
+                <button className="quantityButton">+</button>
+                <div id="quantityDisplay">0</div>
+                <button className="quantityButton">-</button>
               </div>
               <button>Shop Now</button>
             </div>
