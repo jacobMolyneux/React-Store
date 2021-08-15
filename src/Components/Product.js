@@ -10,16 +10,19 @@ export const Product = (props) => {
       <h1 id="productName">{props.name} </h1>
       <img id="productImage" src={props.image} alt={props.name} />
       <div id="productDetailsDiv">
-        <p>Price: ${props.price}</p>
+        <p className="price"> Price: ${props.price}</p>
+        <p className="description">{props.description}</p>
       </div>
-      <div id="incrementClicker">
+      <div id="incrementSelectors">
         <button
           className="quantitySelector"
           onClick={() => setQuantity(quantity + 1)}
         >
           +
         </button>
-        <div>{quantity}</div>
+        <div id="quantityDiv">
+          <h1 id="quantityDisplay">{quantity}</h1>
+        </div>
         <button
           className="quantitySelector"
           onClick={() => setQuantity(quantity - 1)}

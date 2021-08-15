@@ -6,13 +6,23 @@ import SnakePlant from "./images/SnakePlant.jpeg";
 import ZZPLant from "./images/ZZPLant.jpeg";
 
 const Products = [
-  { id: 1, name: "Bamboo Palm", price: 100, img: bambooPlant, quantity: 0 },
+  {
+    id: 1,
+    name: "Bamboo Palm",
+    price: 100,
+    img: bambooPlant,
+    quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
   {
     id: 2,
     name: "Bird Of Paradise",
     price: 50,
     img: birdOfParadise,
     quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
@@ -20,6 +30,8 @@ const Products = [
     price: 75,
     img: lemonLimePlant,
     quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 4,
@@ -27,6 +39,8 @@ const Products = [
     price: 10,
     img: Monstera,
     quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 5,
@@ -34,6 +48,8 @@ const Products = [
     price: 200,
     img: SnakePlant,
     quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 6,
@@ -41,6 +57,8 @@ const Products = [
     price: 149,
     img: ZZPLant,
     quantity: 0,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 export default Products;

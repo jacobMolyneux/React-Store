@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./NavigationBar.css";
+import shoppingCartImage from "./images/shopping-cart.png";
 
 import CartDisplay from "./CartDisplay";
 
@@ -23,7 +24,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div id="navbarHolder">
-        <h1>Iphone Store</h1>
+        <h1>Plant Store</h1>
         <div>
           <Router>
             <nav id="linkDiv">
@@ -51,7 +52,8 @@ export default class NavBar extends React.Component {
                     <div id="cartIconDiv">
                       <img
                         id="cartIcon"
-                        src={""}
+                        src={shoppingCartImage}
+                        alt="Shopping cart"
                         onClick={this._onButtonClick}
                       ></img>
                     </div>

@@ -10,6 +10,7 @@ export const ProductMap = () => {
           name={product["name"]}
           price={product["price"]}
           image={product["img"]}
+          description={product["desc"]}
         />
       ))}
     </div>

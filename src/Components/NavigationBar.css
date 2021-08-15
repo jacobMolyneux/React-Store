@@ -1,9 +1,8 @@
 #navbarHolder {
   display: flex;
-  border: solid black 1px;
-  background: black;
+
   justify-content: space-around;
-  color: white;
+  color: green;
 }
 #linkDiv {
   display: flex;
@@ -19,10 +18,10 @@ li {
   display: inline;
   font-family: Helvetica;
   font-size: 20px;
-  color: white;
+  color: green;
 }
 .link {
-  color: white;
+  color: green;
 }
 #cartIcon {
   height: 30px;

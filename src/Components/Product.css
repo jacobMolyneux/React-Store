@@ -12,3 +12,22 @@
   border-bottom: 2px solid green;
   width: 100%;
 }
+#productImage {
+  width: 200px;
+  height: 200px;
+}
+#incrementSelectors {
+  display: flex;
+}
+.quantitySelector {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+}
+#quantityDiv {
+  border: 1px solid black;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
