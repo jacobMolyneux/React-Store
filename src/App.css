@@ -1,5 +1,4 @@
 .App {
-  background: white;
 }
 #bannerImage {
   width: 1000px;
@@ -16,7 +15,7 @@
 #imageButtonHolder {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(to right, white, lightblue);
+  color: white;
 }
 #shopMoreButton {
   height: 80px;

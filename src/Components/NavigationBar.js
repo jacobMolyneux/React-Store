@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./NavigationBar.css";
-import cartIcon from "/Users/Jacobmolyneux/Desktop/shopping-cart-app/src/Components/Images/shoppingCartIcon.png";
+
 import CartDisplay from "./CartDisplay";
-import IphoneImage from "./Images/IPhone.png";
+
 export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -51,7 +51,7 @@ export default class NavBar extends React.Component {
                     <div id="cartIconDiv">
                       <img
                         id="cartIcon"
-                        src={cartIcon}
+                        src={""}
                         onClick={this._onButtonClick}
                       ></img>
                     </div>
@@ -71,7 +71,6 @@ export default class NavBar extends React.Component {
             name={this.props.product}
             quantity={this.props.quantity}
             price={this.props.price}
-            image={IphoneImage}
             Totalprice={this.state.totalPrice}
           />
         ) : null}

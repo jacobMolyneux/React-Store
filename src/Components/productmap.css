@@ -1,0 +1,4 @@
+#productMapHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
